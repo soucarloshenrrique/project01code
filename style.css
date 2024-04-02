@@ -541,16 +541,6 @@ body {
   object-fit: cover;
 }
 
-.box-about {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-
-  width: 50%;
-
-  padding: 3rem;
-  margin: 6rem 0rem;
-}
 
 .section-subtitle h2 p {
   display: inline-block;
