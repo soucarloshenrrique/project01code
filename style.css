@@ -532,7 +532,7 @@ body {
 
 .box-about h4 {
   margin: 1rem 3rem;
-  font-size: calc(1vw + .6rem);
+  font-size: calc(1vw + .1rem);
 }
 
 .box-about h4 p {
