@@ -583,11 +583,8 @@ span{
 
 /* Start Forms */
 
-section.forms{
-  padding: 80px 4%;
-}  
 
-form{
+.forms{
   max-width: 700px;
   margin: 0 auto;
   display: flex;
@@ -596,7 +593,7 @@ form{
   gap: 10px;
 }
 
-form input textarea{
+.form input textarea{
   width: 100%;
   background-color: #242424;
   border: 0;
