@@ -492,6 +492,61 @@ body {
 
 /* Final da primeira página */
 
+/* Start About-new */
+.about-new{
+  width: 100%
+  padding: 78px 0px;
+  background-color: #191919;
+}  
+
+.about img{
+  height: auto;
+  width: 420;
+}  
+
+.about-text{
+  width: 550px;
+  
+}  
+
+.main{
+  width: 1130px;
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}  
+
+.about-text h1{
+  color: white;
+  font-size: 80px;
+  text-transform: capitalize;
+}
+
+.about-text h5{
+  color: white;
+  font-size: 25px;
+  text-transform: capitalize;
+  margin-bottom: 25px;
+  letter-spacing: 2px;
+}
+
+span{
+  color: #101093;
+}  
+
+.about-text p{
+  color:#FFFFFF;
+  letter-spacing: 1px;
+  line-height: 28px;
+  font-size: 18px;
+  margin-bottom: 45px;
+}  
+/* End About-new */
+
+
+
 #about {
   height: auto;
   width: 100%;
