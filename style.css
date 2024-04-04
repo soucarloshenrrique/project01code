@@ -496,7 +496,7 @@ body {
 .about-new{
   width: 100%
   padding: 78px 0px;
-  background-color: #191919;
+  background: var(--color-black);
 }  
 
 .about img{
