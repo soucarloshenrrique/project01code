@@ -583,44 +583,29 @@ span{
 
 /* Start Forms */
 
-/* Estilos para telas maiores */
-@media screen and (min-width: 768px) {
-    .forms {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-    }
+section.forms{
+  padding: 80px 4%;
+}  
 
-    .interface {
-        width: 50%;
-    }
+form{
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: collum;
+  gap: 10px;
 }
 
-/* Estilos para telas menores */
-@media screen and (max-width: 767px) {
-    .forms {
-        padding: 20px;
-    }
-
-    .title {
-        text-align: center;
-    }
-
-    form {
-        width: 100%;
-    }
-
-    input[type="text"],
-    textarea {
-        width: calc(100% - 20px);
-        margin-bottom: 10px;
-    }
-
-    .btn-send {
-        text-align: center;
-    }
-}
+form input{
+  width: 100%;
+  background-color: #242424;
+  border: 0;
+  outline: 0;
+  padding: 20px 15px;
+  border-radius: 15px;
+  color: #fff;
+  font-size: 18px;
+}  
 
 
 
