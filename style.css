@@ -548,57 +548,7 @@ span{
 
 
 
-#about {
-  height: auto;
-  width: 100%;
-  align-items: center;
-  justify-content: space-around;
-  background: var(--color-black);
 
-  display: flex;
-  color: var(--color-white);
-}
-
-.section-subtitle h2 p {
-  display: inline-block;
-  font-size: calc(1.4vw + 1.2rem);
-}
-
-.section-subtitle h2 p:nth-child(2) span {
-  padding: 3px 5px;
-  border-radius: 4px;
-
-  color: var(--color-black);
-  background: var(--color-white);
-}
-
-.box-about h3 {
-  margin: 3rem;
-  font-size: calc(.8vw + .8rem);
-}
-
-.box-about h3 p {
-  display: inline-block;
-
-  width: fit-content;
-  padding: 2px 4px;
-  border-radius: 4px;
-
-  color: var(--color-black);
-  background: var(--color-pink);
-}
-
-.box-about h4 {
-  margin: 1rem 3rem;
-  font-size: calc(1vw + .1rem);
-}
-
-.box-about h4 p {
-  display: inline;
-  padding: 2px 4px;
-
-  color: var(--color-blue);
-}
 
 .button-cta {
   display: flex;
