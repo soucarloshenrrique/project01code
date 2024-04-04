@@ -550,6 +550,8 @@ span{
 #about {
   height: auto;
   width: 100%;
+  align-items: center;
+  justify-content: space-around;
   background: var(--color-black);
 
   display: flex;
