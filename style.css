@@ -584,12 +584,12 @@ span{
 /* Start Forms */
 
 
-form{
+forms{
   max-width: 700px;
   margin: 0 auto;
   display: flex;
   justify-content: center;
-  flex-direction: collum;
+  flex-direction: column;
   gap: 10px;
 }
 
