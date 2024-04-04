@@ -547,9 +547,6 @@ span{
 /* End About-new */
 
 
-
-
-
 .button-cta {
   display: flex;
 
@@ -585,6 +582,31 @@ span{
 /* Final about */
 
 /* Start Forms */
+
+section.forms{
+  padding: 80px 4%;
+}  
+
+form{
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: collum;
+  gap: 10px;
+}
+
+form input{
+  width: 100%;
+  background-color: #242424;
+  border: 0;
+  outline: 0;
+  padding: 20px 15px;
+  border-radius: 15px;
+  color: #fff;
+  font-size: 18px;
+}  
+
 
 
 /* End Forms */
