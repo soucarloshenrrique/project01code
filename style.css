@@ -582,58 +582,6 @@ span{
   filter: brightness(.8);
 }
 
-/* sm */
-@media (max-width: 375px) {
-
-  .section-subtitle p {
-    font-size: 2rem;
-  }
-
-  .box-about h3 {
-    margin: 2rem 1rem;
-  }
-
-  .box-about h4 {
-    margin: 1rem;
-  }
-
-}
-
-@media (min-width: 376px) and (max-width: 768px) {
-  .box-about {
-    padding: 1.3rem;
-  }
-
-  .section-subtitle p {
-    font-size: 2rem;
-  }
-
-  .box-about h3 {
-    margin: 1.5rem 1rem;
-  }
-
-  .box-about h4 {
-    margin: 1.5rem;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 1440px) {
-  .box-about {
-    padding: 1.8rem;
-  }
-
-  .section-subtitle p {
-    font-size: 2.5rem;
-  }
-
-  .box-about h3 {
-    margin: 2rem 1rem;
-  }
-
-  .box-about h4 {
-    margin: 1.5rem;
-  }
-}
 /* Final about */
 
 /* Start Forms */
