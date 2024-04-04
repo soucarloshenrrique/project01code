@@ -593,7 +593,7 @@ span{
   gap: 10px;
 }
 
-.forms textarea{
+.forms input{
   width: 100%;
   background-color: #242424;
   border: 0;
