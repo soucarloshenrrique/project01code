@@ -495,7 +495,7 @@ body {
 /* Start About-new */
 .about-new{
   width: 100%;
-  padding: 78px 0px;
+  padding: 20px;
   background: var(--color-black);
 }  
 
@@ -511,8 +511,12 @@ body {
   
 }  
 
-.about-text{
-  width: 550px;
+.about-content{
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
   
 }  
 
@@ -521,17 +525,23 @@ body {
   max-width: 95%;
   margin: 0 auto;
   display: flex;
-  align-items: center;
   justify-content: space-around;
+  flex-direction: column;
 }  
 
-.about-text h1{
-  color: white;
-  font-size: 80px;
-  text-transform: capitalize;
-}
 
-.about-text h5{
+
+.about-content h1 {
+  color: white;
+  font-size: 36px; /* Tamanho da fonte aumentado para 36px */
+  margin-bottom: 10px;
+  width: 100%; /* Largura aumentada para 80% */
+  height: auto; /* Altura definida como automática para ajustar ao conteúdo */
+  margin: 0 auto;
+  }
+
+
+.about-content h5{
   color: white;
   font-size: 25px;
   text-transform: capitalize;
@@ -543,12 +553,11 @@ span{
   color: #101093;
 }  
 
-.about-text p{
+.about-content p{
   color:#FFFFFF;
-  letter-spacing: 1px;
-  line-height: 28px;
   font-size: 18px;
-  margin-bottom: 45px;
+  padding:15px 4%;
+  flex-direction: column;
 }  
 
 /* End About-new */
@@ -564,16 +573,16 @@ span{
 .button-cta a {
   display: inline-block;
 
-  padding: calc(0.2vw + 0.8rem) calc(2vw + 0.8rem);
+  padding: 10px 50px;
   margin-bottom: 3rem;
 
-  font-size: calc(.7vw + .55rem);
+  font-size: 16px;
   font-family: 'Poppins', sans-serif;
   font-weight: 700;
   letter-spacing: .15rem;
   color: var(--color-black);
   background: var(--color-white);
-  text-align: center;
+  
   text-decoration: none;
 
 
@@ -591,28 +600,28 @@ span{
 /* Start Forms */
 
 
-form{
+#interface, input,textarea{
   max-width: 500px;
   margin: 0 auto;
   display: flex;
   justify-content: center;
   flex-direction: column;
-  gap: 10px;
-  margin-top: 40px;
+  gap: 10x;
+  margin-top: 20px;
 }
 
-.forms h2{
+.interface h2{
   text-align: center;
   font-size: 80px;
   color:#FFFFFF;
   margin: 0;
 }
 
-  .forms h2 span{
+  .interface h2 span{
     color: #101093;
 }
 
-.forms input, textarea{
+form input, textarea{
   width: 100%;
   background-color: #242424;
   border: 0;
@@ -623,23 +632,29 @@ form{
   font-size: 18px;
 }  
 
-form textarea{
+.interface textarea{
     resize: none;
 } 
 
-form .btn-send{
+.btn-send {
   margin-top: 20px;
   text-align: center;
 }
 
-form .btn-send input{
-  width: 120px;
+.btn-send input {
+  width: 190px;
+  height: 60px; 
+  line-height: 40px; 
   background-color: #fff;
-  color:#000;
+  color: #000;
   font-weight: 700;
   cursor: pointer;
-
+  display: inline-block; 
+  vertical-align: middle; 
+  text-align: center; 
 }
+
+
 
 .btn-send input:hover{
     transition: all .3s ease;
@@ -732,6 +747,42 @@ form .btn-send input{
   transition: color .3s ease;
   color: var(--color-blue);
 }
+
+
+/* Start section about us*/
+
+.about-new {
+  padding: 10px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.profile-image {
+  width: 100%;
+  max-width: 600px; /* Ajuste o tamanho máximo da imagem conforme necessário */
+  height: auto;
+}
+
+.text {
+  max-width: 800px; /* Ajuste a largura máxima do texto conforme necessário */
+  margin-top: 20px;
+}
+
+
+  
+
+/* End section about us */
 
 
 @media (min-width: 1840px) {
