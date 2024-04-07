@@ -501,7 +501,7 @@ body {
 
 .about-new img{
   height: auto;
-  width: 50%;
+  width: 65%;
   max-width: 100%;
 
   border: 1px solid black;
@@ -513,10 +513,7 @@ body {
 
 .about-content{
   width: 400px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
+  padding: 20px;
   
 }  
 
@@ -558,6 +555,7 @@ span{
   font-size: 18px;
   padding:15px 4%;
   flex-direction: column;
+  text-align: left;
 }  
 
 /* End About-new */
@@ -565,7 +563,6 @@ span{
 
 .button-cta {
   display: flex;
-
   max-width: 190px;
   margin: 4rem 3rem;
 }
@@ -574,15 +571,15 @@ span{
   display: inline-block;
 
   padding: 10px 50px;
-  margin-bottom: 3rem;
+  margin-bottom: 5rem;
 
   font-size: 16px;
   font-family: 'Poppins', sans-serif;
   font-weight: 700;
-  letter-spacing: .15rem;
+  letter-spacing: .30rem;
   color: var(--color-black);
+  text-align: center;
   background: var(--color-white);
-  
   text-decoration: none;
 
 
@@ -780,9 +777,64 @@ form input, textarea{
 }
 
 
-  
-
 /* End section about us */
+
+/* Start media for forms */
+/* Estilo para dispositivos menores, como smartphones */
+@media (max-width: 767px) {
+  #forms .interface {
+    padding: 20px;
+  }
+  
+  #forms .title {
+    font-size: 50px;
+  }
+  
+  #forms form input[type="text"],
+  #forms form textarea {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  #forms form .btn-send {
+    text-align: center;
+  }
+  
+  #forms form .btn-send input[type="submit"] {
+    width: 50%;
+    margin: 0 auto;
+  }
+}
+
+/* Style for screen tablets and computer */
+@media (min-width: 768px) {
+  #forms .interface {
+    width: 50%;
+    margin: 0 auto;
+    padding: 50px;
+  }
+  
+  #forms .title {
+    font-size: 36px;
+  }
+  
+  #forms form input[type="text"],
+  #forms form textarea {
+    width: calc(100% - 20px);
+    margin-bottom: 20px;
+  }
+  
+  #forms form .btn-send {
+    text-align: center;
+  }
+  
+  #forms form .btn-send input[type="submit"] {
+    width: 200px;
+  }
+}
+
+/* End media for forms */
+
 
 
 @media (min-width: 1840px) {
