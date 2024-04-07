@@ -1,24 +1,66 @@
-In this project 01
-I created a Portfolio for presentation for my course, good for the first project I think it turned out well.
 
-I know that with time I will improve my skills and make a better website, but I tried to do something simple and objective I hope everyone likes it, because I spent 3x weeks to do it.
+README
+Project Name: Carlos Henrrique's Portfolio
+Overview:
+Carlos Henrrique's Portfolio is a personal website showcasing the skills, projects, and contact information of Carlos Henrrique, a junior full-stack developer. The website aims to provide visitors with insights into Carlos's background, expertise, and professional experience.
+---------------------------------------------------------------------------------------------------------
+Technologies Used:
 
-for someone with skills maybe it's a lot more for a beginner in this world I think I'm doing well, I hope that in a few months my skills will be even better.
+- HTML5
+- CSS3
 
-Projects details/Ideas:
+---------------------------------------------------------------------------------------------------------
 
-In the first session I included some technical language that can be deleted or added further, depending on my learning, my photo will change to a more professional one with a better background.
+Features:
 
-These colors are the ones I like, blue, black, white, orange, purple, pink.
+1. Header Section:
 
-In the ABOUT part:
-I added some details but they will change as I develop in the course with skills, etc.
+Navigation menu for easy access to different sections of the website.
+Responsive design for seamless navigation on various devices.
 
-I added a button where people can download my CV, plus I added a cover letter, which I think is better if I introduce myself first and then if the person is interested, they can talk to me because the email and telephone details are in the letter.
+2. About Section:
 
-As for projects, over time I will add new ones...
+Introduction to Carlos Henrrique, including a profile image and brief bio.
+List of technologies (stacks) Carlos is proficient in.
 
-In the footer part, something very simple and objective like where I am and email.
+3. About Us Section:
+
+Detailed description of Carlos Henrrique's background, skills, and experience.
+Downloadable presentation letter.
+
+4. Talk Us Section:
+
+Form for visitors to contact Carlos Henrrique.
+Fields for name, email, phone, and message.
+
+5. Contacts Section:
+
+Contact information including location and email address.
+Contact icons for easy reference.
+
+6. Footer Section:
+
+Declaration of completion and ownership.
+
+---------------------------------------------------------------------------------------------------------
+
+Credits:
+Font Awesome for icons.
+Images and SVGs sourced from external files.
+Ivo Junior Channel Brazilian for help.
+Code Institute School for educational resources.
 
 
-Everyone has a beginning, this is mine, the first project completed on 03/27/2024 at 3:41 pm.
+---------------------------------------------------------------------------------------------------------
+
+Author:
+Carlos Henrrique
+Student: Code Institute School
+
+---------------------------------------------------------------------------------------------------------
+
+Contact Information:
+For inquiries or collaborations, 
+contact Carlos Henrrique via email at carloshenrrique296@gmail.com
+
+Carlos Henrrique's Portfolio! 🚀
