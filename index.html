@@ -103,27 +103,27 @@
     
    <!-- Start about -->
     
-   <section class="about-new">
-    <div class="main">
-        <div class="about-content">
-            <img src="./img/carlos.jpg" class="profile-image" style="max-width: 100%; width: 50%;">
-            <div class="text">
-                <h1>About Us</h1>
-                <h5> <span>Junior Developer</span><br> Full Stack<br></h5>
-                <p>Carlos Henrrique, a dedicated professional passionate about the digital world, with a multicultural background living in Lisbon, Portugal, before settling in Dublin, Ireland, two years ago. Actively involved in technology, currently studying Full Stack Development at the Code Institute School, with an expected completion date in 2024.
-                <p>Also works as an Affiliate and Freelancer, offering services in various digital market areas.
-                <p> Experienced in understanding market needs and demands, committed to making a significant contribution in web development and digital marketing. 
-                <p>Eager to collaborate on innovative projects and open to new opportunities.<p></p>
-                <p>Click Below to get my CV</p>
-                <div class="button-cta">
-                    <a href="public/document/CARTA DE APRESENTACAO3.pdf" download="Carlos-Presentation-Letter" aria-label="download CV">
-                        Presentation Letter
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+ <section id="about-new">
+      <div class="main">
+          <div class="about-content">
+             <img src="./img/carlos.jpg" class="profile-image" style="max-width: 100%; width: 50%;">
+              <div class="text">
+                  <h1>About Us</h1>
+                  <h5> <span>Junior Developer</span><br> Full Stack<br></h5>
+                  <p>Carlos Henrrique, a dedicated professional passionate about the digital world, with a multicultural background living in Lisbon, Portugal, before settling in Dublin, Ireland, two years ago. Actively involved in technology, currently studying Full Stack Development at the Code Institute School, with an expected completion date in 2024.
+                  <p>Also works as an Affiliate and Freelancer, offering services in various digital market areas.
+                  <p> Experienced in understanding market needs and demands, committed to making a significant contribution in web development and digital marketing. 
+                  <p>Eager to collaborate on innovative projects and open to new opportunities.<p></p>
+                  <p>Click Below to get my CV</p>
+                  <div class="button-cta">
+                      <a href="public/document/CARTA DE APRESENTACAO3.pdf" download="Carlos-Presentation-Letter" aria-label="download CV">
+                         Presentation Letter
+                      </a>
+                  </div>
+             </div>
+          </div>
+      </div>
+  </section>
      <!-- End about -->
 
     <!-- Start Forms -->
@@ -188,8 +188,19 @@
     </section>
 
    <!-- End Footer -->
- 
+  <!-- JavaScript for Smooth Scrolling -->
+  <script>
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
 
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    });
+</script>
+<!-- JavaScript for Smooth Scrolling -->
 </body>
 
 </html>
