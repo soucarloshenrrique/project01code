@@ -13,6 +13,13 @@ Technologies Used:
 
 Features:
 
+<div class="Screen website">
+             <img class="screen-top-website" src="./img/SCREEN TOP WEBSITE.png" alt="screen-top-website">
+             <img class="screen-about-website" src="./img/SCREEN ABOUT WEBSITE.png" alt="screen-about-website">
+             <img class="screen-forms-website" src="./img/SCREEN FORMS WEBSITE.png" alt="screen-about-website">
+             <img class="screen-footer-website" src="./img/SCREEN FOOTER WEBSITE.png" alt="screen-footer-website">
+          </div>
+
 1. Header Section:
 
 Navigation menu for easy access to different sections of the website.
@@ -41,6 +48,30 @@ Contact icons for easy reference.
 6. Footer Section:
 
 Declaration of completion and ownership.
+
+
+Testing
+
+I tested that this page works in different browsers: chrome, firefox, safari
+
+I confirmed that this project is responsive, looks good and functions on all standard screen sizes using the dev tools device toolbar.
+
+I CONFIRMED THAT THE NAVIGATION, HEADER, ABOUT , FORMS and contact text are all readable and easy to understand.
+
+I have confirmed that the form works: requires entries in every field, will only accept an email in the email field, and the submit button works.
+
+
+Validator Testing
+
+Accessibility
+
+I confirmed that the colours and fonts chosen are easy to read and accessible by running it through lighthouse in dev tools
+
+<div class="Screen website">
+             <img class="screen-validator-front" src="./img/Screen-Validator-front.png" alt="screen-validator-top">
+             <img class="screen-validator-middle" src="./img/Screen-Validator-middle.png" alt="screen-validator-middle">
+             <img class="screen-validator-last" src="./img/Screen-Validator-last.png" alt="screen-validator-last">
+          </div>
 
 ---------------------------------------------------------------------------------------------------------
 
