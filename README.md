@@ -14,12 +14,10 @@ Technologies Used:
 
 ## Technologies Used:
 
-<div class="Screen website">
-             <img class="screen-top-website" src="./img/SCREEN TOP WEBSITE.png" alt="screen-top-website">
-             <img class="screen-about-website" src="./img/SCREEN ABOUT WEBSITE.png" alt="screen-about-website">
-             <img class="screen-forms-website" src="./img/SCREEN FORMS WEBSITE.png" alt="screen-about-website">
-             <img class="screen-footer-website" src="./img/SCREEN FOOTER WEBSITE.png" alt="screen-footer-website">
-          </div>
+![screenshoot](./assets/img/screen-top-website.png)
+![screenshoot](./assets/img/screen-about-website.png)
+![screenshoot](./assets/img/screen-form-website.png)
+![screenshoot](./assets/img/screen-footer-website.png)
 
 ### 1. Header Section:
 
@@ -62,19 +60,17 @@ I CONFIRMED THAT THE NAVIGATION, HEADER, ABOUT , FORMS and contact text are all 
 I have confirmed that the form works: requires entries in every field, will only accept an email in the email field, and the submit button works.
 
 
-Validator Testing
+### Validator Testing:
 
 Accessibility
 
 I confirmed that the colours and fonts chosen are easy to read and accessible by running it through lighthouse in dev tools
 
-<div class="Screen website">
-             <img class="screen-validator-front" src="./img/Screen-Validator-front.png" alt="screen-validator-top">
-             <img class="screen-validator-middle" src="./img/Screen-Validator-middle.png" alt="screen-validator-middle">
-             <img class="screen-validator-last" src="./img/Screen-Validator-last.png" alt="screen-validator-last">
-          </div>
+![screenshoot](./assets/img/screen-validator-front.png)
+![screenshoot](./assets/img/screen-validator-middle.png)
+![screenshoot](./assets/img/screen-validator-last.png)
 
----------------------------------------------------------------------------------------------------------
+---
 
 Credits:
 Font Awesome for icons.
@@ -83,17 +79,19 @@ Ivo Junior Channel Brazilian for help.
 Code Institute School for educational resources.
 
 
----------------------------------------------------------------------------------------------------------
-
+---
 Author:
 Carlos Henrrique
 Student: Code Institute School
 
----------------------------------------------------------------------------------------------------------
+---
 
 Contact Information:
 For inquiries or collaborations, 
 contact Carlos Henrrique via email at carloshenrrique296@gmail.com
+
 [link-email](carloshenrrique296@gmail.com)
+
 [link-repository](https://github.com/soucarloshenrrique/project01code.git)
+
 Carlos Henrrique's Portfolio! 🚀
