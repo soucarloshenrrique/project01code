@@ -67,8 +67,6 @@ Accessibility
 I confirmed that the colours and fonts chosen are easy to read and accessible by running it through lighthouse in dev tools
 
 ![screenshoot](./assets/img/screen-validator-front.png)
-![screenshoot](./assets/img/screen-validator-middle.png)
-![screenshoot](./assets/img/screen-validator-last.png)
 
 ---
 
