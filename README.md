@@ -103,6 +103,6 @@ contact Carlos Henrrique via email at carloshenrrique296@gmail.com
 
 [link-repository](https://github.com/soucarloshenrrique/project01code.git)
 
-[link-website-](https://portfolio-chv-project1.netlify.app/)
+[link-website](https://portfolio-chv-project1.netlify.app/)
 
 Carlos Henrrique's Portfolio! 🚀
