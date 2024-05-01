@@ -49,24 +49,35 @@ Contact icons for easy reference.
 Declaration of completion and ownership.
 
 
-Testing
-
-I tested that this page works in different browsers: chrome, firefox, safari
-
-I confirmed that this project is responsive, looks good and functions on all standard screen sizes using the dev tools device toolbar.
-
-I CONFIRMED THAT THE NAVIGATION, HEADER, ABOUT , FORMS and contact text are all readable and easy to understand.
-
-I have confirmed that the form works: requires entries in every field, will only accept an email in the email field, and the submit button works.
-
-
 ### Validator Testing:
 
-Accessibility
+## image
+I have used the recommended HTML W3C Validator to validate all of my HTML files.
+[Link-Validator](https://validator.w3.org/)
 
-I confirmed that the colours and fonts chosen are easy to read and accessible by running it through lighthouse in dev tools
+![screenshoot](./assets/img/screen-shot-top-validator-w3)
+![screenshoot](./assets/img/screen-shot-middle-validator-w3)
+![screenshoot](./assets/img/screen-shot-final-validator-w3)
+
+
+### Lighthouse Audit
+I have used the recommended Lighthouse Validator to validate all of my files.
 
 ![screenshoot](./assets/img/screen-validator-front.png)
+
+
+##### Responsiveness
+I've tested my deployed project on multiple devices to check for responsiveness issues.
+
+**Mobile Iphone (DevTools)
+![screenshot-iphone](./assets/img/screen-shot-iphone-14)
+
+**Mobile Samsung(DevTools)
+![screenshot-samsung-s8](./assets/img/screen-shot-samsung-s8)
+
+**Desktop
+![screenshot-desktop](./assets/img/screen-shot-desktop)
+
 
 ---
 
@@ -91,5 +102,7 @@ contact Carlos Henrrique via email at carloshenrrique296@gmail.com
 [link-email](carloshenrrique296@gmail.com)
 
 [link-repository](https://github.com/soucarloshenrrique/project01code.git)
+
+[link-website-](https://portfolio-chv-project1.netlify.app/)
 
 Carlos Henrrique's Portfolio! 🚀
